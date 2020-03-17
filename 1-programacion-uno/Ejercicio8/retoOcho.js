@@ -1,7 +1,7 @@
 'use strict'
 
-const sectionA = document.querySelector('.section-a');
-const sectionB = document.querySelector('.section-b');
+const boton1 = document.querySelector('.button1');
+const boton2 = document.querySelector('.button2');
 
-sectionA.classList.add('hidden');
-sectionB.classList.remove('hidden');
+boton1.classList.add('.opacity');
+boton2.classList.remove('.opacity');
